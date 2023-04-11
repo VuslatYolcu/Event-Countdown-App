@@ -9,8 +9,6 @@ import UIKit
 import UIKit
 
 class EventListViewController: UIViewController {
-
-    let coreDataManager = CoreDataManager()
     
     static func instantiate() -> EventListViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
@@ -21,9 +19,6 @@ class EventListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
-        
-        coreDataManager.saveEvent(name: "New Years", date: Date(), image: UIImage(named: "newyear")!)
-        print(coreDataManager.fethcEvent())
     }
     
     private func setupViews() {
