@@ -19,6 +19,7 @@
 		1184E99729E496E200E90227 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184E99629E496E200E90227 /* UIColor+Extensions.swift */; };
 		118BA94529E5CE57001A4FDD /* EventsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 118BA94329E5CE57001A4FDD /* EventsApp.xcdatamodeld */; };
 		118BA94729E5CF89001A4FDD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA94629E5CF89001A4FDD /* CoreDataManager.swift */; };
+		11E4462729E7140500C69D27 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4462629E7140500C69D27 /* EventListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1184E99629E496E200E90227 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		118BA94429E5CE57001A4FDD /* EventsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsApp.xcdatamodel; sourceTree = "<group>"; };
 		118BA94629E5CF89001A4FDD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		11E4462629E7140500C69D27 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				1184E98A29E48F4B00E90227 /* Info.plist */,
 				118BA94329E5CE57001A4FDD /* EventsApp.xcdatamodeld */,
 				118BA94629E5CF89001A4FDD /* CoreDataManager.swift */,
+				11E4462629E7140500C69D27 /* EventListViewModel.swift */,
 			);
 			path = EventsApp;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				118BA94529E5CE57001A4FDD /* EventsApp.xcdatamodeld in Sources */,
 				1184E99729E496E200E90227 /* UIColor+Extensions.swift in Sources */,
 				118BA94729E5CF89001A4FDD /* CoreDataManager.swift in Sources */,
+				11E4462729E7140500C69D27 /* EventListViewModel.swift in Sources */,
 				1184E97F29E48F4B00E90227 /* SceneDelegate.swift in Sources */,
 				1184E99329E4926200E90227 /* EventListCoordinator.swift in Sources */,
 			);
