@@ -18,12 +18,10 @@ class AddEventCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = UIViewController()
-        viewController.view.backgroundColor = .systemBlue
-        navigationController.present(viewController, animated: true, completion: nil)
-        // create add event view controller
-        // create add event view model
-        // present modally controller
+        let addEventViewController: AddEventViewController = .instantiate()
+        let addEventViewModel = AddEventViewModel()
+        addEventViewController.viewModel = addEventViewModel
+        navigationController.present(addEventViewController, animated: true, completion: nil)
     }
     
     

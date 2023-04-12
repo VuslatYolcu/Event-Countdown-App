@@ -17,7 +17,7 @@ final class EventListCoordinator: Coordinator {
     }
     
     func start() {
-        let eventListViewController = EventListViewController.instantiate()
+        let eventListViewController: EventListViewController = .instantiate()
         let eventListViewModel = EventListViewModel()
         eventListViewModel.coordinator = self
         eventListViewController.viewModel = eventListViewModel
