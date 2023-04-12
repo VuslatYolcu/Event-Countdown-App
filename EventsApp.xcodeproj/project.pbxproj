@@ -78,6 +78,7 @@
 		1184E97B29E48F4B00E90227 /* EventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				11E4463029E721D400C69D27 /* ViewModels */,
 				118BA94229E5CDFD001A4FDD /* Coordinators */,
 				118BA94129E5CDF4001A4FDD /* Controllers */,
 				118BA94029E5CDEA001A4FDD /* Extensions */,
@@ -90,8 +91,6 @@
 				1184E98A29E48F4B00E90227 /* Info.plist */,
 				118BA94329E5CE57001A4FDD /* EventsApp.xcdatamodeld */,
 				118BA94629E5CF89001A4FDD /* CoreDataManager.swift */,
-				11E4462629E7140500C69D27 /* EventListViewModel.swift */,
-				11E4462E29E71AA300C69D27 /* AddEventViewModel.swift */,
 			);
 			path = EventsApp;
 			sourceTree = "<group>";
@@ -122,6 +121,15 @@
 				11E4462829E7153A00C69D27 /* AddEventCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		11E4463029E721D400C69D27 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				11E4462629E7140500C69D27 /* EventListViewModel.swift */,
+				11E4462E29E71AA300C69D27 /* AddEventViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
